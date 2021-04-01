@@ -1,34 +1,34 @@
 /* Basic Style */
-.main {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-.logo {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.logo .logo-img {
+.header .logo__img {
     width: 100%;
 }
 
-.logo .more-inf {
+.header .Logo__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-    .logo { 
+    .header { 
         text-align: center;
     }
 
 }
 
-.center-main-page-element {
+.main__tasks {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -40,16 +40,16 @@
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main__tasks_add-item_input {
     display: flex;
 }
 
-.page {
+.main__task {
     margin:0;
     padding: 0px;
 }
 
-li, 
+.main__task_list, 
 h3 {
     list-style: none;
 }
@@ -167,15 +167,15 @@ button.delete img:hover {
 }
 
 /* Edit Task */
-.page li input[type=text] {
+.main__task li input[type=text] {
     display: none;
 }
 
-.page .edit-Mode input[type=text] {
+.main__task .edit-Mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-.page .edit-Mode label {
+.main__task .edit-Mode label {
     display: none;
 }
