@@ -171,11 +171,11 @@ button.delete img:hover {
     display: none;
 }
 
-.main__task .edit-Mode input[type=text] {
+.main__task .edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-.main__task .edit-Mode label {
+.main__task .edit-mode label {
     display: none;
 }
